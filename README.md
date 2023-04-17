@@ -1,6 +1,8 @@
 # Python and R Code from Kupffer Cell Natural Genetic Variation Paper (Bennett et al., 2023)
 ____
-In this repository you can find all the code that was used for analysis of the effect of natural genetic variation on Kupffer cell transcription and epigenetic variation, as found in our <a href="https://www.biorxiv.org/content/10.1101/2022.09.22.509046v1">preprint</a>.
+In this repository you can find all the code that was used for analysis and visualization <a href="https://www.biorxiv.org/content/10.1101/2022.09.22.509046v1">Bennett et al</a>.
+
+Briefly, this paper explores the effect of natural genetic variation *in vivo*, using Kupffer cells as a model cell type. We collect and analyze transcriptional and epigenetic data (ATAC-seq, H3K27Ac ChIP-seq) to identify putative *trans* regulators driving differential gene expression across inbred strains of mice. Additionally, we provide evidence that *trans* effects control a majority of strain differential genes at homeostasis while *cis* effects dominate the transcriptional response to an external signal (lipopolysaccharide).
 
 ### Content of this repository
 ____
@@ -48,6 +50,8 @@ We have organized our scripts by the figures they produce within the manuscript.
     * Figure5_H3K27Ac_CisTrans_Promoter_Motifs.ipynb: Motif analysis of accessible enhancers associated with *trans* regulated genes.
 * Figure 6
     * Figure6_00_Maggie_LowEqualHighBasal_Github.ipynb: MAGGIE analysis of low/equal/high basal ATAC-seq peaks from LPS treatment experiment.
+    
+If you encounter a problem with the provided code please post in the <a href="https://github.com/HunterBennett/KupfferCell_NaturalGeneticVariation/issues">issues section</a>.  
 
 ### Packages utlized in this work
 ____
@@ -57,6 +61,10 @@ This work utilizes the following published algorithms:
 * <a href="https://github.com/saeyslab/nichenetr">NicheNet</a> Browaeys et al., Nature Methods 2019.
 * <a href="https://github.com/vlink/marge">MMARGE</a> Link et al., Bioinformatics, 2018.
 * <a href="http://homer.ucsd.edu/homer/">HOMER</a> Heinz et al., Molecular Cell, 2010.
+
+### Contributors
+___
+Code was written by Hunter Bennett and Ty Troutman.
 
 ### References
 ___
