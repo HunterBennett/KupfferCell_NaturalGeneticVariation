@@ -7,7 +7,10 @@ Briefly, this paper explores the effect of natural genetic variation *in vivo*, 
 ### Content of this repository
 ____
 We have organized our scripts by the figures they produce within the manuscript.
-* Figure 1
+* figure1
+    * figure1_assembly.R: R script to assemble figure 1
+    * fn_clear_session.R: R function to clear session
+    * fn_figure1_assembly.R: R function called by assembly script to build fig 1
 * Figure 2
     * Figure2_ATAC_00_Annotation.ipynb: Generates peak counts at IDR peaks and provides basic QC of ATAC-seq data.
     * Figure2_ATAC_01_UpSetPlot.ipynb: Generates UpSetPlot found in Figure 2.
@@ -49,7 +52,17 @@ We have organized our scripts by the figures they produce within the manuscript.
     * Figure5_H3K27Ac_03_CisTrans_KnownMotifs.ipynb: Motif analysis of *cis* and *trans* regulated ATAC-seq peaks.
     * Figure5_H3K27Ac_CisTrans_Promoter_Motifs.ipynb: Motif analysis of accessible enhancers associated with *trans* regulated genes.
 * Figure 6
-    * Figure6_00_Maggie_LowEqualHighBasal_Github.ipynb: MAGGIE analysis of low/equal/high basal ATAC-seq peaks from LPS treatment experiment.
+    * figure6_assembly.R: R script to build most of figure 6
+    * fn_clear_session.R: R function to clear session
+    * fn_process_peaks_strict.R: R function to process peak files
+    * fn_process_plot.R: R function to process fig 6 plot
+    * Figure6_00_Maggie_LowEqualHighBasal_Github.ipynb: MAGGIE analysis of low/equal/high basal ATAC-seq peaks from LPS treatment experiment.  
+* Extended Data Figure 1
+    * extended_figure1.R: script to build extended data figure 1
+* Extended Data Figure 2
+    * extended_figure2.R: script to build extended data figure 2
+    * fn_clear_session.R: R function to clear session
+    * pheatmap2.R: function to build heatmap for figure 2
     
 If you encounter a problem with the provided code please post in the <a href="https://github.com/HunterBennett/KupfferCell_NaturalGeneticVariation/issues">issues section</a>.  
 
