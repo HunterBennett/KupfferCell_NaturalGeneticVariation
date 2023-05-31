@@ -35,11 +35,12 @@ We have organized our scripts by the figures they produce within the manuscript.
 * Figure 4
     * Figure4_00_CB6F1J_NSG_MA_Plots.ipynb: Generate MA plots found in Figure 4.
     * Figure4_01_CB6F1J_CisTrans_Plot.ipynb: Generate *cis*/*trans* gene expression plots for CB6F1/J mice found in Figure 4.
-    * Figure4_02_NSG_CisTrans_Plot.ipynb: Generate *cis*/*trans* gene expression plots for NSG mice found in Figure 4.
-    * Figure4_03_UpSetPlot.ipynb: Generate UpSetPlot found in Figure 4.
-    * Figure4_04_CisTrans_Effectsize_CumulativeDist.ipynb: Generate plot of cumulative effect size of *cis* and *trans* acting mutations in CB6F1/J mice.
-    * Figure4_05_Promoter_Motifs_and_Gene_Ontology.ipynb: Perform gene ontology and promoter motif analysis for *cis* and *trans* gene sets.
+    * Figure4_02_CB6F1J_NSG_CisTrans_Plot.ipynb: Generate *cis*/*trans* gene expression plots for F1NSG mice found in Figure 4.
+    * Figure4_03_NSG_CisTrans_Plot: Generate *cis*/*trans* gene expression plots for F0-NSG mice found in Figure 4.
+    * Figure4_04_UpSetPlot.ipynb: Generate UpSetPlot found in Figure 4.
+    * Figure4_05_CisTrans_Effectsize_CumulativeDist.ipynb: Generate plot of cumulative effect size of *cis* and *trans* acting mutations in CB6F1/J mice.
     * Figure4_06_Cell_Extrinsic_Intrinsic_Heatmaps.ipynb: Create heatmaps illustrating cell intrinsic vs. extrinsic patterns of gene expression.
+    * Figure4_07_Promoter_Motifs_and_Gene_Ontology.ipynb: Perform gene ontology and promoter motif analysis for *cis* and *trans* gene sets.
 * Figure 5
     * Figure5_ATAC_00_Annotation_Github.ipynb: Generates allellic peak counts at IDR peaks and performs basic principal component analysis.
     * Figure5_ATAC_01_Differential_Peaks.ipynb: Identifies differentially accessible ATAC-seq peaks in CB6F1/J mice.
