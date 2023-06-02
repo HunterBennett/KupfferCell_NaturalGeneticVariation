@@ -75,6 +75,11 @@ This work utilizes the following published algorithms:
 * <a href="https://github.com/saeyslab/nichenetr">NicheNet</a> Browaeys et al., Nature Methods 2019.
 * <a href="https://github.com/vlink/marge">MMARGE</a> Link et al., Bioinformatics, 2018.
 * <a href="http://homer.ucsd.edu/homer/">HOMER</a> Heinz et al., Molecular Cell, 2010.
+* <a href="https://github.com/s-andrews/FastQC">FastQC</a> Andrews et al.
+* <a href="https://github.com/alexdobin/STAR">STAR</a> Dobin et al., Bioinformatics 2013.
+* <a href="https://github.com/BenLangmead/bowtie2">BowTie2</a> Langmead et al., Nature Methods 2012.
+* <a href="https://bioconductor.org/packages/release/bioc/html/DESeq2.html">DESeq2</a> Love et al., Genome Biology 2014.
+* <a href="https://github.com/z5ouyang/A.C.Rsuite">A.C.RSuite</a> Zhengyu Ouyang.
 
 ### Contributors
 ___
